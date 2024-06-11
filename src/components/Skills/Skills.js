@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Skills.module.css'
-import htmlLogo from '../../img/hmtl-logo.png';
+import htmlLogo from '../../img/html-logo.png';
 import cssLogo from '../../img/css-logo.png';
 import jsLogo from '../../img/JavaScript-logo.png';
 import reactLogo from '../../img/react-logo.png';

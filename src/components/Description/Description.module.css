@@ -1,15 +1,25 @@
-/* Estilo da seção de descrição */
+/* Estilos da descrição */
+
 .container {
     text-align: center;
-    margin-top: 2rem;
+    padding: 2rem 1rem;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 800px;
 }
 
 .title {
     color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 .description {
-    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1.5rem;
 }
 
 .socialMedia {
@@ -17,16 +27,31 @@
 }
 
 .list {
-    list-style-type: none;
+    list-style: none;
+    padding: 0;
     display: flex;
     justify-content: center;
+    gap: 1rem;
 }
 
 .list li {
-    margin-right: 1rem;
+    margin: 0;
 }
 
-.list li a {
+.list a {
     text-decoration: none;
-    color: #333;
+    color: #3498db;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+}
+
+.list a:hover {
+    color: #2c3e50;
+}
+
+.list svg {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
 }

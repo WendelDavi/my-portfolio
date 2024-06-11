@@ -1,8 +1,22 @@
-/* Estilo da seção sobre */
 .container {
-    margin-top: 2rem;
+    padding: 2rem 1rem;
+    background: linear-gradient(135deg, #c3cfe2 0%, #f5f7fa 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 800px;
 }
 
 .title {
     color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.about {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
 }
