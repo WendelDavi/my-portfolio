@@ -1,16 +1,16 @@
 import React from 'react';
 import styles from './Skills.module.css'
-import htmlLogo from '../../img/html-logo.png';
-import cssLogo from '../../img/css-logo.png';
-import jsLogo from '../../img/JavaScript-logo.png';
-import reactLogo from '../../img/react-logo.png';
-import nodejsLogo from '../../img/nodejs-logo.png';
-import gitLogo from '../../img/git-logo.png';
-import githubLogo from '../../img/github-logo.png';
-import javaLogo from '../../img/java-logo.png';
-import pythonLogo from '../../img/python-logo.png';
-import mysqlLogo from '../../img/mysql-logo.png';
-import vscodeLogo from '../../img/vsc-logo.png';
+import htmlLogo from '../../assets/html-logo.png';
+import cssLogo from '../../assets/css-logo.png';
+import jsLogo from '../../assets/JavaScript-logo.png';
+import reactLogo from '../../assets/react-logo.png';
+import nodejsLogo from '../../assets/nodejs-logo.png';
+import gitLogo from '../../assets/git-logo.png';
+import githubLogo from '../../assets/github-logo.png';
+import javaLogo from '../../assets/java-logo.png';
+import pythonLogo from '../../assets/python-logo.png';
+import mysqlLogo from '../../assets/mysql-logo.png';
+import vscodeLogo from '../../assets/vsc-logo.png';
 
 const Skills = () => (
     <section>
