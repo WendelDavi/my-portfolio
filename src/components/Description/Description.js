@@ -21,7 +21,7 @@ const Description = () => (
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/wendel-s-37a4ba189/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/wendel-d-37a4ba189/" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin /> LinkedIn
                         </a>
                     </li>
