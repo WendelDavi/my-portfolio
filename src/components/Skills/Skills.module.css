@@ -1,0 +1,33 @@
+/* Estilo da seção de habilidades */
+.container {
+    margin-top: 2rem;
+}
+
+.title {
+    color: #333;
+}
+
+.grid {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.grid li {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.grid li img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0.5rem;
+}

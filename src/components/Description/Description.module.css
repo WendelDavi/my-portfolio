@@ -1,0 +1,32 @@
+/* Estilo da seção de descrição */
+.container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.title {
+    color: #333;
+}
+
+.description {
+    margin-top: 1rem;
+}
+
+.socialMedia {
+    margin-top: 1rem;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.list li {
+    margin-right: 1rem;
+}
+
+.list li a {
+    text-decoration: none;
+    color: #333;
+}
